@@ -69,7 +69,6 @@ def extract_vacancy_data(html):
     """
     return markdown.strip()
 
-
 def extract_candidate_data(html):
     """Функция для извлечения данных кандидата"""
     soup = BeautifulSoup(html, 'html.parser')
